@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/recyclerdropdown"
+        android:layout_width="340dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="20dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/CenterHomeCardViewImage1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/visibility_foreground" />
+
+        <TextView
+            android:id="@+id/merchantname"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/fontspring_bold"
+            android:text="Four Square Corner" />
+
+        <TextView
+            android:id="@+id/timeoftransaction"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="45dp"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/transactionamount"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:text="230"
+            android:textAlignment="gravity" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

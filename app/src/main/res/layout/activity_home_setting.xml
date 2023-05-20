@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Setting">
+
+    <LinearLayout
+        android:id="@+id/SettingsTopLayout"
+        android:layout_width="match_parent"
+        android:background="#FB5641"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/SettingsBackButton"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="."
+            android:textAlignment="gravity"
+            android:autoSizeTextType="uniform"
+            android:clickable="true"
+            android:gravity="center_vertical|center_horizontal"/>
+
+        <TextView
+            android:id="@+id/SettingsHeader"
+            android:layout_width="match_parent"
+            android:text="Settings"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/fontspring_bold"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMaxTextSize="50sp"
+            android:textAlignment="gravity"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_height="80dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_below="@id/SettingsTopLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:background="#FB5641"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="500dp"
+            android:layout_centerHorizontal="true"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/SettingsHeaderCard"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:text="Savings"
+                android:fontFamily="@font/fontspring_bold"
+                android:layout_marginTop="25dp"
+                android:textSize="30sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#807E7E"
+                android:layout_marginTop="70dp"/>
+
+            <LinearLayout
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/help_round"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/fontspring_bold"
+                android:autoSizeTextType="uniform"
+                android:textAlignment="gravity"
+                android:gravity="center_vertical"
+                android:text="Vaibhav Joshi"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#807E7E"
+                android:layout_marginTop="175dp"/>
+
+            <TextView
+                android:layout_width="155dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="italic"
+                android:text="UPI"/>
+
+
+            <TextView
+                android:id="@+id/upiid"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_marginTop="245dp"
+                android:layout_marginLeft="20dp"
+                android:text="9921404567@jupiteraxis"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="155dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="320dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="italic"
+                android:text="Account Number"/>
+
+            <TextView
+                android:id="@+id/Accountnumber"
+                android:clickable="true"
+                android:layout_width="140dp"
+                android:layout_height="30sp"
+                android:layout_marginTop="345dp"
+                android:layout_marginLeft="20dp"
+                android:text="xxxx xxxx xxxx xxxx"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="155dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="320dp"
+                android:layout_marginLeft="180dp"
+                android:textStyle="italic"
+                android:text="IFSC Code"/>
+
+            <TextView
+                android:id="@+id/IFSCcode"
+                android:clickable="true"
+                android:layout_width="155dp"
+                android:layout_height="30sp"
+                android:layout_marginTop="345dp"
+                android:layout_marginLeft="180dp"
+                android:textSize="15sp"
+                android:text="RBLB7720514"
+                android:textStyle="bold|italic"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#807E7E"
+                android:layout_marginTop="420dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

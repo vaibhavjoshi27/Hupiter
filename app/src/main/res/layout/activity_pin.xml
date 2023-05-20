@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paying Via"
+        android:textAlignment="center"
+        android:fontFamily="@font/fontspring_bold"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/payvia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="Karnataka Bank Ltd."
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/pin_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/fontspring_bold"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/fontspring_bold"
+            android:text="Enter Pin"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:src="@mipmap/eye_open"
+            android:id="@+id/hide"/>
+
+        <TextView
+            android:id="@+id/hidebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/fontspring_bold"
+            android:text="Hide"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp">
+
+        <EditText
+            android:id="@+id/pos1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/fontspring_bold"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/pos2"
+            android:layout_width="60dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/fontspring_bold"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/pos3"
+            android:layout_width="60dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/fontspring_bold"
+            android:textSize="40sp" />
+
+        <EditText
+            android:id="@+id/pos4"
+            android:layout_width="60dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/fontspring_bold"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:rowCount="4"
+        android:columnCount="3"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="1"
+            android:autoSizeTextType="uniform"
+            android:textColor="#1D4D8E"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="2"
+            android:autoSizeTextType="uniform"
+            android:textColor="#1D4D8E"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:textColor="#1D4D8E"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="3"
+            android:autoSizeTextType="uniform"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:textColor="#1D4D8E"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="4"
+            android:autoSizeTextType="uniform"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:textColor="#1D4D8E"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="5"
+            android:autoSizeTextType="uniform"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:textColor="#1D4D8E"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="6"
+            android:autoSizeTextType="uniform"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:textColor="#1D4D8E"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="7"
+            android:autoSizeTextType="uniform"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:textColor="#1D4D8E"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="8"
+            android:autoSizeTextType="uniform"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:textColor="#1D4D8E"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="9"
+            android:autoSizeTextType="uniform"/>
+
+        <ImageButton
+            android:id="@+id/buttonback"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:src="@drawable/cut_digit_foreground"/>
+
+        <Button
+            android:id="@+id/button0"
+            android:textColor="#1D4D8E"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="0"
+            android:autoSizeTextType="uniform"/>
+
+        <ImageButton
+            android:id="@+id/buttoncontinue"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:src="@drawable/payment_successfull_foreground"/>
+
+    </GridLayout>
+
+</RelativeLayout>

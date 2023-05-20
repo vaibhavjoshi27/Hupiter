@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/Debit_Card_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/Save_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/cancel_payment_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/card_money_symbol_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/cut_digit_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/debit_card_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/home_top_options_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/ic_baseline_view_headline_24.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/loan_tracker_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/payee_recent.xml" value="0.1615" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/payee_shape.xml" value="0.176" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/payment_successfull_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/portfolio_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/save_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/verified.xml" value="0.12" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/verified_tick.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/drawable/visibility_foreground.xml" value="0.2425" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_camtu.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_deposit_from_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_home_setting.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_main.xml" value="0.16906267970097758" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_payment_failed.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_payment_successful.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_pin.xml" value="0.152" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_send_money_from_upi.xml" value="0.264" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_send_successful.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_sending_pin.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/activity_transfer_money.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/banner_view.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/content_ct.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/content_enter_pin.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/content_send_money_via_upi.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/dropdownrecyclerviewhome.xml" value="0.264" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/fragment_bank_transfer.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/fragment_second.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/fragment_second2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/fragment_second3.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/fragment_upi_payment.xml" value="0.2611731843575419" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/horizontal_recycler_view_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/joshi/Desktop/Android dev/hupiter/app/src/main/res/layout/payee_grid.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".upi_payment"
+    android:id="@+id/fragtwo">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/enterupiid"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/send_money_foreground"/>
+
+        <EditText
+            android:id="@+id/upiid"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:autoSizeTextType="uniform"
+            android:background="@android:color/transparent"
+            android:cursorVisible="false"
+            android:gravity="center_vertical"
+            android:hint="Enter UPI ID"
+            android:singleLine="true"
+            android:textAlignment="gravity"
+            android:textSize="15dp" />
+
+        <ImageButton
+            android:id="@+id/addid"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:src="@drawable/add_id_foreground"
+            android:scaleY="0.7"
+            android:scaleX="0.7"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:src="@drawable/qr_from_send_foreground"
+            android:scaleY="0.7"
+            android:scaleX="0.7"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/fontspring_bold"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:textColor="@color/black"
+        android:text="Recent Payees"/>
+
+        <GridView
+            android:id="@+id/payeegrid"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:numColumns="5" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/fontspring_bold"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:textColor="@color/black"
+            android:text="Other Options"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontspring_bold"
+                android:text="Request Money"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:layout_marginLeft="50dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontspring_bold"
+                android:text="Manage UPI accounts"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:layout_marginLeft="50dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontspring_bold"
+                android:text="Manage Payees"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:layout_marginLeft="50dp"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontspring_bold"
+                android:text="View all UPI Transaction"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black"/>
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/continuepayment"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:background="#FB5641"
+            android:fontFamily="@font/fontspring_bold"
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:layout_marginBottom="23dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/topaction"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="#FB5641">
+
+            <LinearLayout
+                android:id="@+id/topactionone"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/homeslider"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:scaleX="1.5"
+                    android:scaleY="1.5"
+                    android:src="@drawable/home_top_options_foreground"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/hometoptext"
+                    android:layout_width="180dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="20sp"
+                    android:layout_marginTop="15dp"
+                    android:autoSizeMaxTextSize="22sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/fontspring_bold"
+                    android:text="Hi, Vaibhav"
+                    android:textColor="@color/white"/>
+
+                <ImageButton
+                    android:id="@+id/hometoprightrewards"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/rewards" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:background="@null"
+                    android:src="@mipmap/help_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topactionone"
+                android:layout_centerHorizontal="true">
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#FB5641"
+                    android:text="Account"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:layout_width="141dp"
+                    android:layout_height="50dp"
+                    android:backgroundTint="#FB5641"
+                    android:text="Investments"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/cardviews"
+                android:layout_width="match_parent"
+                android:layout_height="215dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#FB5641"/>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/homecard"
+                    android:layout_width="240dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:layout_width="120sp"
+                        android:layout_height="20sp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Account Balance"
+                        android:textAlignment="center" />
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginTop="60dp">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:scaleType="fitCenter"
+                            android:scaleX="2"
+                            android:scaleY="2"
+                            android:src="@drawable/card_money_symbol_foreground" />
+
+                        <TextView
+                            android:id="@+id/balanceid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30sp"
+                            android:layout_marginLeft="25dp"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:maxWidth="100dp"
+                            android:textAlignment="gravity"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/hidenshow"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@null"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="165dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/visibility_foreground" />
+
+                    <Button
+                        android:id="@+id/depositmoney"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="110dp"
+                        android:backgroundTint="#FB5614"
+                        android:text="+ Deposit " />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="163dp"
+                        android:text="Track your networth ->"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/homerecyclerview"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="140dp"
+                android:orientation="horizontal"
+                android:layout_below="@id/cardviews"
+                app:reverseLayout="true" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/transactionshome"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/homerecyclerview"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="30dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/CenterHomeCardView"
+                            android:layout_width="260dp"
+                            android:layout_height="78dp"
+                            android:text="Recent Transactions"
+                            android:layout_marginLeft="20dp"
+                            android:fontFamily="@font/fontspring_bold"
+                            android:textSize="23sp"
+                            android:textAlignment="gravity"
+                            android:gravity="center_vertical"/>
+
+                        <ImageButton
+                            android:id="@+id/droprecyclerhome"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/dropup"/>
+
+                </LinearLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:visibility="visible"
+                        android:id="@+id/drp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/bannerrecyclerviewhome"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/transactionshome"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:clickable="true"
+                            android:orientation="vertical" />
+        </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/scan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"/>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
